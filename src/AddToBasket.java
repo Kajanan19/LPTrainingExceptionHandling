@@ -7,7 +7,7 @@ public class AddToBasket {
 	 double finalTotal;
 	 WriteToReport writeToReport=new WriteToReport();
 	 String writeString;
-	public void addItemsDetailsToBasket(String itemName, double itemPrice, double discountGiven, double finalTotal) throws IOException {
+	public void addItemsDetailsToBasket(String itemName, double itemPrice, double discountGiven, double finalTotal) throws IOException, ItemsNotFoundException {
 		this.itemName=itemName;
 		this.itemPrice=itemPrice;
 		this.discountGiven=discountGiven;

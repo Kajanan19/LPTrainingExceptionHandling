@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 
 public class WriteToReport {
 	String readString;
-	public void writeToReportFile(String writeDetails) throws IOException {
+	public void writeToReportFile(String writeDetails) throws IOException, ItemsNotFoundException {
 		
 		PrintWriter printWriter=null;
 
